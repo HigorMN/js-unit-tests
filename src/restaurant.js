@@ -114,8 +114,8 @@ const createMenu = (sideDishes) => {
         sum += sideDishes.drink[menu.consumption[index]];
       }
     }
-    return sum + (sum * 0.10);
-  }
+    return sum + sum * 0.1;
+  };
   return menu;
 };
 
